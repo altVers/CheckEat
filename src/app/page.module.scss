@@ -1,0 +1,99 @@
+.cells {  
+    &--first {
+        opacity: 0;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        animation: fadeInTopLeft 1.5s ease 0s 1 normal forwards;
+    }
+    &--second {
+        opacity: 0;
+        position: absolute;
+        top: 120px;
+        right: 182px;
+        animation: fadeInTopRight 1.5s ease .1s 1 normal forwards;
+    }
+    &--third {
+        opacity: 0;
+        position: absolute;
+        top: 242px;
+        right: 0;
+        animation: fadeInBottomLeft 1.5s ease .1s 1 normal forwards;
+    }
+    &--fourth {
+        opacity: 0;
+        position: absolute;
+        top: 361px;
+        right: 182px;
+        animation: fadeInBottomRight 1.5s ease 0s 1 normal forwards;
+    }
+}
+
+.content {
+    &__title {
+        opacity: 0;
+        animation: fadeInLeft 1.5s ease 0s 1 normal forwards;
+    }
+    &__descr {
+        opacity: 0;
+        animation: fadeInLeft 1.5s ease .1s 1 normal forwards;
+    }
+    &__btn {
+        opacity: 0;
+        animation: fadeInLeft 1.5s ease .2s 1 normal forwards;
+    }
+}
+
+@keyframes fadeInBottomLeft {
+	0% {
+		transform: translate(50px, 50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+@keyframes fadeInBottomRight {
+	0% {
+		transform: translate(-50px, 50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+@keyframes fadeInLeft {
+	0% {
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes fadeInTopRight {
+	0% {
+		transform: translate(-50px,-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+@keyframes fadeInTopLeft {
+	0% {
+		transform: translate(50px,-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
