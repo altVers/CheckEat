@@ -2,7 +2,6 @@ import Image, { StaticImageData } from "next/image";
 import { FC, memo } from "react";
 import styles from "./ImageCell.module.scss";
 import classNames from "classnames";
-import { img } from "framer-motion/client";
 
 interface Props {
   image: StaticImageData;

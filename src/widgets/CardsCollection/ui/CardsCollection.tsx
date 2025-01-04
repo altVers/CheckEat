@@ -5,7 +5,7 @@ import styles from '../styles/CardsCollection.module.scss'
 export default function CardsCollection() {
   return (
     <div className="w-full gap-2 grid grid-cols-12">
-      <Card className={classNames("!col-span-4 h-[300px] cursor-pointer", styles.card)}>
+      <Card className={classNames("col-span-12 md:col-span-4 h-[300px] cursor-pointer", styles.card)}>
         <CardHeader className="absolute z-10 top-1 flex-col !items-start">
           <p className="text-tiny text-white/60 uppercase font-bold">
             Ресторан
@@ -21,7 +21,7 @@ export default function CardsCollection() {
           src="https://nextui.org/images/card-example-4.jpeg"
         />
       </Card>
-      <Card className={classNames("col-span-4 h-[300px] cursor-pointer", styles.card)}>
+      <Card className={classNames("col-span-12 md:col-span-4 h-[300px] cursor-pointer", styles.card)}>
         <CardHeader className="absolute z-10 top-1 flex-col !items-start">
           <p className="text-tiny text-white/60 uppercase font-bold">
             Бар
@@ -37,7 +37,7 @@ export default function CardsCollection() {
           src="https://nextui.org/images/card-example-3.jpeg"
         />
       </Card>
-      <Card className={classNames("col-span-4 h-[300px] cursor-pointer", styles.card)}>
+      <Card className={classNames("col-span-12 md:col-span-4 h-[300px] cursor-pointer", styles.card)}>
         <CardHeader className="absolute z-10 top-1 flex-col !items-start">
           <p className="text-tiny text-white/60 uppercase font-bold">
           Ресторан
@@ -55,7 +55,7 @@ export default function CardsCollection() {
       </Card>
       <Card
         isFooterBlurred
-        className={classNames("col-span-5 h-[300px] cursor-pointer", styles.card)}
+        className={classNames("col-span-12 md:col-span-5 h-[300px] cursor-pointer", styles.card)}
       >
         <CardHeader className="absolute z-10 top-1 flex-col items-start">
           <p className="text-tiny text-white/60 uppercase font-bold">Бар</p>
@@ -79,7 +79,7 @@ export default function CardsCollection() {
       </Card>
       <Card
         isFooterBlurred
-        className={classNames("col-span-7 h-[300px] cursor-pointer", styles.card)}
+        className={classNames("col-span-12 md:col-span-7 h-[300px] cursor-pointer", styles.card)}
       >
         <CardHeader className="absolute z-10 top-1 flex-col items-start">
           <p className="text-tiny text-white/60 uppercase font-bold">
