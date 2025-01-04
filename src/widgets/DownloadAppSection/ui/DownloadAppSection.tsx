@@ -2,7 +2,7 @@ import { Card, CardBody, Image, Tabs, Tab } from "@nextui-org/react";
 
 export default function DownloadAppSections() {
   return (
-    <section className="container mx-auto flex flex-col gap-8 px-6 pb-24">
+    <section className="container mx-auto flex flex-col gap-8 px-6 pb-24 relative z-10">
       <h2 className="font-bold text-3xl">Скачайте наше приложение</h2>
       <div className="grid grid-cols-12 gap-8">
         <div className="col-span-3">
