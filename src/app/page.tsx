@@ -12,11 +12,14 @@ import { AuthForm } from "@/widgets/AuthForm/ui/AuthForm";
 export default function Home() {
   return (
     <>
-    <AuthForm />
+      <AuthForm />
       <section className="container px-6 flex gap-4 justify-center min-h-screen items-center relative z-10">
         <div className="flex flex-col gap-4 items-center lg:items-start relative z-10">
           <h1
-            className={classNames("font-black text-6xl sm:text-8xl", styles.content__title)}
+            className={classNames(
+              "font-black text-6xl sm:text-8xl",
+              styles.content__title
+            )}
           >
             <span className={styles["content__title--Check"]}>Check</span>
             <span className={styles["content__title--Eat"]}>Eat</span>
