@@ -4,7 +4,7 @@ import styles from "./ImageCell.module.scss";
 import classNames from "classnames";
 
 interface Props {
-  image: StaticImageData;
+  image: StaticImageData | string;
   width?: number;
   height?: number;
   alt?: string;

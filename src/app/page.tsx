@@ -7,10 +7,12 @@ import CardsCollection from "@/widgets/CardsCollection/ui/CardsCollection";
 import YaMap from "@/widgets/YaMap/ui/YaMap";
 import DownloadAppSections from "@/widgets/DownloadAppSection/ui/DownloadAppSection";
 import classNames from "classnames";
+import { AuthForm } from "@/widgets/AuthForm/ui/AuthForm";
 
 export default function Home() {
   return (
     <>
+    <AuthForm />
       <section className="container px-6 flex gap-4 justify-center min-h-screen items-center relative z-10">
         <div className="flex flex-col gap-4 items-center lg:items-start relative z-10">
           <h1

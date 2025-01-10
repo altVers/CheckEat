@@ -3,13 +3,22 @@ import { Card, CardBody, Image, Tabs, Tab } from "@nextui-org/react";
 export default function DownloadAppSections() {
   return (
     <section className="container mx-auto flex flex-col gap-8 px-6 pb-24 relative z-10">
-      <h2 className="font-bold text-2xl md:text-3xl">Скачайте наше приложение</h2>
+      <h2 className="font-bold text-2xl md:text-3xl">
+        Скачайте наше приложение
+      </h2>
       <div className="flex flex-col items-center sm:grid sm:grid-cols-12 sm:items-start gap-8">
         <div className="sm:col-span-3">
-          <Image src="https://i.ibb.co/YR1sYQt/Frame-32.png" isBlurred alt="Mobile App"/>
+          <Image
+            src="https://i.ibb.co/YR1sYQt/Frame-32.png"
+            isBlurred
+            alt="Mobile App"
+          />
         </div>
         <div className="sm:col-span-9 flex w-full flex-col">
-            <p className="pb-4">Наше приложение позволит получить доступ к таким возможностям прямо из смартфона:</p>
+          <p className="pb-4">
+            Наше приложение позволит получить доступ к таким возможностям прямо
+            из смартфона:
+          </p>
           <Tabs aria-label="Options">
             <Tab key="physic" title="Физлицам">
               <Card>
